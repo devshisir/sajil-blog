@@ -1,0 +1,157 @@
+@import 'import/reset.scss';
+@import 'import/_color.scss';
+/*-- this is for typography --*/
+@import 'import/typography.scss';
+@import 'import/_comn.scss';
+$lato: 'Lato', sans-serif;
+@font-face {
+    font-family: psr;
+    src: url('/asset/fonts/Product-Sans-Regular.ttf');
+}
+@font-face {
+    font-family: psbold;
+    src: url('/asset/fonts/ProductSans-Bold.ttf');
+}
+.heading_lg{
+    font-family: psbold;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.heading_md{
+    font-family: psbold;
+    font-size: 24px;
+    margin-bottom: 13px;
+}
+.blogDesc{
+    font-size: 17px;
+    line-height: 30px;
+}
+.text-success{
+    color: $brand1 !important;
+}
+
+.fake{
+    height: 100vh;
+}
+.mb_12{
+    margin-bottom: 12px;
+}
+.bold{
+    font-family: psbold;
+}
+.blog_chart_image{
+    padding: 30px 0px;
+    background-color: #fff;
+}
+//headerTop
+#headerTop{
+    padding: 20px 0px;
+    background-color: #fff;
+    .container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .HeaderLink{
+        ul{
+            li{
+                display: inline-block;
+                margin-left: 20px;
+                a{
+                    font-family: psbold;
+                    color: $bodyColor;
+                    font-size: 16px;
+                    &:hover{
+                        color: $brand1;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+    .headerSearch{
+        .inputBox{
+            position: relative;
+            input{
+                width: 100%;
+                height: 44px;
+                border: 2px solid $bodyColor;
+                background-color: #fff;
+                padding: 0px 20px 0px 40px;
+                border-radius: 5px;
+                font-family: $lato;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 44px;
+            }
+            .searchIcon{
+                position: absolute;
+                left: 15px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+    }
+}
+
+//navLinkArea
+#navLinkArea{
+    .container{
+        border-top: 1px solid #707070;
+        border-bottom: 1px solid #707070;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .nav{
+        ul{
+            li{
+                display: inline-block;
+                margin-right: 25px;
+                a{
+                    color: $bodyColor;
+                    font-family: $lato;
+                    font-size: 15px;
+                    display: block;
+                    font-weight: 700;
+                    &:hover{
+                        color: $brand1;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+    .navLinkRightArea{
+        a{
+            background-color: $bodyColor;
+            color: #fff;
+            padding: 15px 30px;
+            display: inline-block;
+            font-family: $lato;
+            font-weight: 700;
+            font-size: 14px;
+            &:hover{
+                background-color: $brand1;
+            }
+        }
+    }
+}
+
+//blogMainWrapper
+#blogMainWrapper{
+    padding: 30px 0px;
+    padding-bottom: 100px;
+    background-color: #fff;
+    .container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .blog_caption{
+        img{
+            width: 100%;
+            border-radius: 3px;
+        }
+    }
+    .blog_content_item{
+        padding: 15px 0px;
+    }
+}

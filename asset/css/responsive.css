@@ -1,0 +1,110 @@
+/* XL (laptop) Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1499px) {}
+
+@media (min-width: 1500px) and (max-width: 1709px) {}
+
+@media (min-width: 1200px) and (max-width: 1300px) {}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    #navLinkArea .nav ul li {
+        display: inline-block;
+        margin-right: 12px;
+    }
+    #navLinkArea .nav ul li a {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+}
+
+/*-- Phone Landscape --*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    #navLinkArea .nav ul li {
+        display: inline-block;
+        margin-right: 12px;
+    }
+    #navLinkArea .nav ul li a {
+        font-size: 14px;
+    }
+    #navLinkArea .container{
+        border-bottom: none;
+        padding-top: 10px;
+    }
+    #navLinkArea .navLinkRightArea{
+        text-align: center !important;
+        margin-top: 15px;
+    }
+    #navLinkArea .navLinkRightArea a{
+        width: 50%;
+    }
+    .heading_lg{
+        font-size: 24px;
+    }
+    .heading_md{
+        font-size: 20px;
+    }
+    .blogDesc{
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
+
+
+/* Extra small Device. */
+@media (max-width: 575px) {
+    .container{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    #headerTop .HeaderLink{
+        text-align: center !important;
+    }
+    #headerTop .HeaderLink ul li{
+        margin-left: 13px;
+    }
+    #headerTop .HeaderLink{
+        margin-bottom: 10px;
+    }
+    #headerTop .logo_area{
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+    #navLinkArea .nav ul{
+        text-align: center !important;
+    }
+    #navLinkArea .nav ul li {
+        display: inline-block;
+        margin-right: 13px;
+    }
+    #navLinkArea .nav ul li a {
+        font-size: 14px;
+    }
+    #navLinkArea .container{
+        border-bottom: none;
+        padding-top: 10px;
+    }
+    #navLinkArea .navLinkRightArea{
+        text-align: center !important;
+        margin-top: 10px;
+    }
+    #navLinkArea .navLinkRightArea a{
+        width: 100%;
+    }
+    .heading_lg{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .heading_md{
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
